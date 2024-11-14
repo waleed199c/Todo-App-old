@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+}
+
+body, html {
+  height: 100%; /* Ensure the entire viewport is covered */
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+}
+
+:root {
+  --background-color: #f4f4f6;      /* Soft light background */
+  --foreground-color: #4f46e5;      /* Brighter blue for contrast in light mode */
+  --primary-text-color: #1a1a1a;    /* Dark gray text for good readability */
+  --secondary-text-color: #ffffff;  /* White for high contrast on dark elements */
+  --toggle-bg: #e6e6e6;             /* Light neutral background for toggles */
+  --toggle-fg: #005bbb;             /* Deep blue for contrast */
+  --tag-text-color: #0a0a0a; /* Dark text for light mode */
+  --submit-button-color: #4f46e5;
+  --input-background: #f9f9f9; /* Light mode background */
+  --input-border: #dfe3e6; /* Light mode border */
+  --input-text-color: #0a0a0a; /* Light mode text */
+}
+
+[data-theme="dark"] {
+  --background-color: #1c1c1e;       /* Darker background with a softer tone */
+  --foreground-color: #3b82f6;       /* Softer blue to reduce strain in dark mode */
+  --primary-text-color: #e4e4e7;     /* Light gray for readability against dark bg */
+  --secondary-text-color: #141414;   /* Almost black for reverse contrast */
+  --toggle-bg: #333647;              /* Muted dark background for toggles */
+  --toggle-fg: #009bff;              /* Bright blue for highlight in dark mode */
+  --tag-text-color: #f6f6f6; /* Light text for dark mode */
+  --submit-button-color: #3b82f6; /* Slightly lighter for dark mode */
+  --input-background: #1f1f1f; /* Dark mode background */
+  --input-border: #555555; /* Dark mode border */
+  --input-text-color: #f6f6f6; /* Dark mode text */
+}
+
+

@@ -1,0 +1,25 @@
+.footer {
+    background-color: var(
+    --foreground-color
+  ); /* Use your theme's foreground color */
+    color: var(
+    --secondary-text-color
+  ); /* Use your theme's secondary text color */
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer a {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    margin-top: 10px;
+}

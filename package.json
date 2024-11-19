@@ -1,8 +1,8 @@
 {
   "name": "todo-app",
-  "private": true,
+  "version": "0.1.0",
   "homepage": "https://waleed199c.github.io/Todo-App/",
-  "version": "0.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
